@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido id="P006">
+        <cliente>
+            <nombre>Ana López</nombre>
+            <email>ana@correo.com</email>
+        </cliente>
+        <componentes>
+            <componente tipo="CPU">
+                <nombre>Ryzen 5</nombre>
+                <marca>AMD</marca>
+                <precio>200</precio>
+                <cantidad>1</cantidad>
+            </componente>
+        </componentes>
+        <fecha>2026-04-15</fecha>
+        <precio-total>200</precio-total>
+    </pedido>
+</pedidos>
