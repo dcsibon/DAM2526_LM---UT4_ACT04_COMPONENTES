@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido id="P002">
+        <cliente>
+            <nombre>Carlos Ruiz</nombre>
+            <email>carlos@correo.com</email>
+        </cliente>
+        <fecha>2026-04-11</fecha>
+        <componentes>
+            <componente tipo="RAM">
+                <nombre>Kingston 16GB DDR4</nombre>
+                <marca>Kingston</marca>
+                <precio>79.99</precio>
+                <cantidad>2</cantidad>
+            </componente>
+            <componente tipo="SSD">
+                <nombre>Crucial 1TB</nombre>
+                <marca>Crucial</marca>
+                <precio>89.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+        </componentes>
+        <precio-total>249.97</precio-total>
+    </pedido>
+</pedidos>
