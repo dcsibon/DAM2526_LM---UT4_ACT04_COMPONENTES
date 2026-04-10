@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido id="P008">
+        <cliente>
+            <nombre>Pedro Gómez</nombre>
+            <email>pedro@correo.com</email>
+            <telefono>123456789</telefono>
+        </cliente>
+        <fecha>2026-04-18</fecha>
+        <componentes>
+            <componente tipo="GPU">
+                <nombre>RTX 4060</nombre>
+                <marca>NVIDIA</marca>
+                <precio>400</precio>
+                <cantidad>1</cantidad>
+            </componente>
+        </componentes>
+        <precio-total>400</precio-total>
+    </pedido>
+</pedidos>
