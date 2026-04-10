@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido id="P005">
+        <cliente>
+            <nombre>María Torres</nombre>
+            <email>maria@correo.com</email>
+        </cliente>
+        <fecha>2026-04-14</fecha>
+        <componentes>
+            <componente tipo="CPU">
+                <nombre>Ryzen 9 7900X</nombre>
+                <marca>AMD</marca>
+                <precio>499.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+            <componente tipo="GPU">
+                <nombre>RTX 4080</nombre>
+                <marca>NVIDIA</marca>
+                <precio>1199.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+            <componente tipo="RAM">
+                <nombre>Corsair 64GB DDR5</nombre>
+                <marca>Corsair</marca>
+                <precio>299.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+            <componente tipo="SSD">
+                <nombre>Samsung 2TB</nombre>
+                <marca>Samsung</marca>
+                <precio>199.99</precio>
+                <cantidad>2</cantidad>
+            </componente>
+        </componentes>
+        <precio-total>2399.95</precio-total>
+    </pedido>
+</pedidos>
