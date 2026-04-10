@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido id="P007">
+        <cliente>
+            <nombre>Laura Pérez</nombre>
+            <email>laura@correo.com</email>
+        </cliente>
+        <fecha>2026-04-17</fecha>
+        <componentes>
+        </componentes>
+        <precio-total>0</precio-total>
+    </pedido>
+</pedidos>
