@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+
+    <pedido id="P003">
+        <cliente>
+            <nombre>Lucía Martín</nombre>
+            <email>lucia@correo.com</email>
+        </cliente>
+        <fecha>2026-04-12</fecha>
+        <componentes>
+            <componente tipo="GPU">
+                <nombre>RTX 4060</nombre>
+                <marca>NVIDIA</marca>
+                <precio>399.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+        </componentes>
+        <precio-total>399.99</precio-total>
+    </pedido>
+
+    <pedido id="P004">
+        <cliente>
+            <nombre>Pedro Gómez</nombre>
+            <email>pedro@correo.com</email>
+        </cliente>
+        <fecha>2026-04-13</fecha>
+        <componentes>
+            <componente tipo="CPU">
+                <nombre>Intel i7 13700K</nombre>
+                <marca>Intel</marca>
+                <precio>429.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+            <componente tipo="RAM">
+                <nombre>G.Skill 32GB DDR5</nombre>
+                <marca>G.Skill</marca>
+                <precio>159.99</precio>
+                <cantidad>1</cantidad>
+            </componente>
+        </componentes>
+        <precio-total>589.98</precio-total>
+    </pedido>
+
+</pedidos>
